@@ -1,0 +1,61 @@
+/* .coming{ */
+    /* color:orange;
+    background-color: #330099;
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: arial;
+    text-align: center; */
+/* } */
+/* p{
+    color:#330099;
+    text-align: right;
+    line-height: 30px;
+    letter-spacing: 3px;
+    column-count: none;
+    column-gap: 60px;
+}
+h2{
+    color: #ff8800;
+    text-align: center;
+}
+ul{
+    border-bottom: 4px dotted #ff8800;
+    border-left: 8px dashed #330099;
+    border-top: 4px dotted #ff8800;
+    border-right: 8px dashed #330099;
+ 
+}
+li{
+    list-style-type: none ;
+    text-shadow: 2px 2px lightgray;
+}
+a[href*="camanda.academy"]{
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+a[href$=".com"]{
+    color: #330099;
+    background: red;
+    border: 2px solid blue;
+} */
+
+div{
+    color: lightcoral;
+    border: 2px solid grey;
+    margin: 40px;
+    font-weight: bold;
+    
+}
+p{
+    border: inherit;
+    margin: inherit;
+    color: crimson;
+}
+h2{
+    border:inherit;
+    margin:inherit;
+    color:crimson;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Style.css">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h1>HTML FORMS</h1>
+<br>
+    <label for="Username">Enter Username:</label>
+    <input type="text" id="Username"required> 
+    <br><br>
+    <label for="Email">Enter Email</label>
+    <input type="Email" id="Email" required>
+    <br><br>
+    <label for="Password">Enter Password</label>
+    <input type="password" id="Password"required>
+
+<p>Select your age: </p>
+<input type="radio" name="age" value="0-25" id="option-1" required>
+<label for="option-1">0-25</label>
+<input type="radio" name="age" value="26-50" id="option-2" required>
+<label for="option-2">26-50</label>
+<input type="radio" name="age" value="51=" id="option-3" required>
+<label for="option-3">51+</label>
+<br><br>
+
+<p>gender</p>
+<input type="radio" name="gender" value="male" id="option4">
+<label for="radio">male</label>
+<br><br>
+<input type="radio" name="gender" value="female" id="option5">
+<label for="radio"> female</label>
+
+
+<br><br>
+
+<label for="Question">Security Question:</label>
+<select name="Question" id="Question">
+<option value="Q1">What is your favourite color? </option>
+<option value="Q2">What was your college nickname? </option> 
+<option value="Q3">Which is your favorite Country? </option>
+
+</select>
+<br><br>
+
+<label for="Security Qustion Answer"></label>
+<input type="Answer" id="Answer" name="Answer">
+
+<br><br>
+<label for="bio">your bio:</label><br>
+<textarea name="bio" id="bio" cols="30" rows="10" placeholder="about you..."></textarea>
+
+<br><br> 
+<input type="submit" value="Submit the form">
+
+</form>
+
+</body>
+</html>
